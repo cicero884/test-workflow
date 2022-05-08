@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: gcc test.c
+      - run: gcc hello.c
       - run: ./a.out
 
