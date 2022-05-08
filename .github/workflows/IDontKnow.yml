@@ -1,0 +1,12 @@
+name: learn-github-actions
+on: [pull_request]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: gcc hello.c
+      - run: ./a.out
+      - run: gcc another.c
+      - run: ./a.out
+
