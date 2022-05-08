@@ -16,7 +16,7 @@ int main()
 	assert(a);
  
 	// now change the value of a=0
-	a = 0;
+	a = 1;
  
 	// Displaying the value of a
 	printf("Value of a is:%d\n\n", a);
